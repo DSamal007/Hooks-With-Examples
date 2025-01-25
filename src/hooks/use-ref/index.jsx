@@ -52,7 +52,7 @@ const RefExampleTwo = () => {
 
 // note
 /*
-useEffect is acts like a little box where it stores value even if the component re renders
+useRef is acts like a little box where it stores value even if the component re renders
 often used for two different things : 
   1. accessing dom elements directly if it needs to
   2. keeping a mutable value : technically like stores previous value of states even though state value changes with the 
